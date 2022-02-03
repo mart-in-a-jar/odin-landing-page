@@ -171,6 +171,10 @@ button {
   margin-bottom: 3px;
 }
 
+.infobox img:hover {
+  transform: scale(1.05);
+}
+
 .info h2 {
   font-size: 36px;
   font-weight: 1000;
