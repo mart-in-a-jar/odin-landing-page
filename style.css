@@ -201,3 +201,9 @@ button {
 .hero.right {
   max-width: 400px;
 }
+
+@media screen and (max-width: 588px) {
+  .header {
+    justify-content: center;
+  }
+}
