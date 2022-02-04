@@ -21,14 +21,16 @@ html {
 }
 
 .actionbox {
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   background-color: #3882F6;
-  padding: 30px 60px;
-  margin: 60px 120px;
+  padding: 30px 12px;
+  margin: 60px 3vw;
   flex: 1;
-  max-width: 800px;
-  min-width: 600px;
+  max-width: 750px;
+  min-width: 300px;
   border-radius: 10px;
+  gap: 20px
 }
 
 h1,
@@ -69,7 +71,7 @@ h3 {
 
 .quote-text {
   max-width: 650px;
-  min-width: 400px;
+  min-width: 300px;
   font-style: italic;
   font-size: 36px;
   color: #1F2937;
@@ -115,14 +117,16 @@ button {
 
 .header {
   justify-content: space-between;
-  margin: 20px 100px;
+  margin: 20px 4vw;
+  flex-wrap: wrap;
+  gap: 10px 20px;
 }
 
 .herobox {
-  margin-bottom: 80px;
   justify-content: center;
-  gap: 50px;
-  margin: 20px 100px 40px;
+  gap: 30px 50px;
+  margin: 20px 4vw 40px;
+  flex-wrap: wrap-reverse;
 }
 
 #header-logo {
@@ -130,7 +134,7 @@ button {
 }
 
 #heroimg {
-  width: 400px;
+  width: 100%;
 }
 
 .top-links {
@@ -144,14 +148,11 @@ button {
   text-decoration: none;
   color: white;
   padding: 10px 10px;
+  display: inline-block;
 }
 
 .top-links li a:hover {
   background-color: #080b0f83;
-}
-
-#la {
-  margin-right: -10px;
 }
 
 .gallery {
@@ -193,6 +194,10 @@ button {
 }
 
 .hero.left {
-  min-width: 300px;
-  max-width: 800px;
+  /* min-width: 300px; */
+  max-width: 550px;
+}
+
+.hero.right {
+  max-width: 400px;
 }
