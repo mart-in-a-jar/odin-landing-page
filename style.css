@@ -165,7 +165,7 @@ button {
 }
 
 .infobox img {
-  border: 3px solid black;
+  border: 3px solid #1f2937;
   border-radius: 12px;
   width: 150px;
   height: 150px;
@@ -186,6 +186,7 @@ button {
   font-size: 48px;
   font-weight: 1000;
   color: #f9faf8;
+  margin-bottom: 8px;
 }
 
 .hero .text {

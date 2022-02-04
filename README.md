@@ -7,6 +7,9 @@ Photo by <a href="https://unsplash.com/@alison_wang?utm_source=unsplash&utm_medi
 Bilde av Craig Adderley fra Pexels
 
 
+Bilde av Josh Hild fra Pexels
+
+
 
 TO DO:
 Change pictures and text
